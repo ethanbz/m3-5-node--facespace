@@ -38,3 +38,14 @@
   font-family: Teko;
   font-size: 11px;
 }
+
+.friended {
+  position: absolute;
+  display: inline;
+  margin-left: -48px;
+  font-weight: bold;
+  color: white;
+  font: outline;
+  outline: 1px solid black;
+  background-color: black;
+}

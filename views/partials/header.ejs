@@ -7,5 +7,6 @@
 </head>
 <body>
   <header class="header">
-      <h1 class='site-title'>Facespace</h1>
+      <a class='titlelink' href='/'><h1 class='site-title'>Facespace</h1></a>
+      <a class='signin-button' href='/signin'><%= currentUser.name ? `Howdy, ${currentUser.name}` : 'Sign In' %></a>
   </header>

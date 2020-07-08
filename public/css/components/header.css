@@ -31,3 +31,7 @@
   color: var(--primary-color);
   cursor: pointer;
 }
+
+.titlelink {
+  text-decoration: none;
+}
